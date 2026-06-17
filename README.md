@@ -82,3 +82,57 @@ The machine learning model analyzes the data
 The system generates flood-risk prediction
         ↓
 The result is displayed as risk level, affected area, and population impact
+
+```
+## How to Run the Project
+
+Follow these steps to run ARUNIKA on your local machine :
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/arunika.git
+cd arunika
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+
+For Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+For macOS or Linux:
+
+```bash
+source venv/bin/activate
+```
+
+### 4. Install the Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+If `requirements.txt` is not available, install the main dependencies manually:
+
+```bash
+pip install flask pandas numpy scikit-learn joblib
+```
+
+### 5. Run the Application
+Run by using :
+
+```bash
+python app.py
+```
+
+### 6. Open the Website
+After the server starts, open the address in your browser and ARUNIKA web application should now be running locally.
